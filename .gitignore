@@ -1,0 +1,22 @@
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Patient uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Environment and dependencies
+.env
+.venv/
+node_modules/
+__pycache__/
+
+# Generated screening reports and outputs
+backend/reports/generated/*
+!backend/reports/generated/.gitkeep
+
+# Generated ML evaluation and inference outputs
+ml/reports/generated/*
+!ml/reports/generated/.gitkeep
